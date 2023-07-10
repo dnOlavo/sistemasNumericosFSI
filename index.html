@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sistemas de Numeração</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Sistemas de Numeração</h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <form id="decimal-form">
+        <label for="decimal-input">Número Decimal:</label>
+        <input type="text" id="decimal-input" />
+        <input type="submit" value="Converter" />
+      </form>
+
+      <div id="result"></div>
+
+      <form id="converter-form">
+        <label for="converter-input">Número:</label>
+        <input type="text" id="converter-input" />
+        <select id="converter-base">
+          <option value="bin">Binário</option>
+          <option value="dec">Decimal</option>
+          <option value="hex">Hexadecimal</option>
+        </select>
+      </form>
+
+      <div id="conversion-results"></div>
+
+      <button id="copy-button">Copiar</button>
+    </div>
+  </main>
+
+  <footer>
+    <section>
+      <div>
+        <img src="img/iftm.jpeg" alt="" width="300">
+      </div>
+
+      <div>
+        <p>Fundamentos de Sistemas para Internet</p>
+        <p>Todos os direitos reservados. ©</p>
+      </div>
+
+      <div class="local">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.9677130102773!2d-48.28264532390217!3d-18.932823208035003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a444e28f2d7a11%3A0x8fa16020966235f9!2sIFTM%20-%20Campus%20Uberl%C3%A2ndia%20Centro%20(Zona%20Sul)!5e0!3m2!1spt-BR!2sbr!4v1688782065198!5m2!1spt-BR!2sbr"
+          width="565" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p>Endereço: Rua Olesio F. Malheiros, 243, São Joaquim da Barra - SP, 14600-000</p>
+      </div>
+    </section>
+  </footer>
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>
