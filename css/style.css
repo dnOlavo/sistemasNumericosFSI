@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    font-family: 'Space Grotesk';
+    background-color: #D7C6AB;
+    overflow: hidden;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #27331A;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+  }
+
+  input[type="submit"] {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  #copy-button {
+    margin: auto;
+    width: 20%;
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: #D7C6AB;
+    background-color: #27331A;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #D7C6AB;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  #copy-button:active {
+    transform: scale(0.85);
+  }
+
+  #result {
+    margin-top: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E4C831;
+    width: 700px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 50px 0px;
+    margin-top: 100px;
+    box-shadow: -10px -10px #27331A;
+  }
+
+  #decimal-form {
+    margin: auto;
+  }
+
+  #converter-form {
+    margin: auto;
+  }
+
+footer {
+    background-color: #27331A;
+    margin-top: 150px;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+}
+
+footer section > div {
+    width: 33%;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+footer p {
+    padding-top: 20px;
+    color: #EEEEEE;
+}
+
+footer p {
+    text-decoration: none;
+    color: #D7C6AB;;
+}
